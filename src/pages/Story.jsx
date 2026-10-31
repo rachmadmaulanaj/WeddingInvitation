@@ -1,4 +1,5 @@
 import { useGlobalContext } from '../GlobalProvider';
+import { asset } from '../utils/asset';
 
 import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
@@ -27,7 +28,7 @@ function Story() {
                                         <h3 className='mt-1 font-poiretone text-2xl text-c-navy md:text-3xl'>{item.title}</h3>
                                         {item.urlPhoto ? (
                                             <img
-                                                src={item.urlPhoto}
+                                                src={asset(item.urlPhoto)}
                                                 alt={item.title}
                                                 className='mt-3 w-full rounded-md object-cover'
                                             />

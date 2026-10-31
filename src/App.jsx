@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, LazyMotion, MotionConfig, domMax } from 'motion/react';
 import { useGlobalContext } from './GlobalProvider';
+import { asset } from './utils/asset';
 
 import Cover from "./pages/Cover";
 import Homepage from './pages/Homepage';
@@ -85,7 +86,7 @@ function App() {
 			<LazyMotion features={domMax} strict>
 				<div className='min-h-screen'>
 					{hasMusic ? (
-						<audio ref={audioRef} src={backsound.url} loop preload="none" />
+						<audio ref={audioRef} src={asset(backsound.url)} loop preload="none" />
 					) : null}
 					<AnimatePresence onExitComplete={handleCoverExitComplete}>
 						{

@@ -1,5 +1,6 @@
 import { m as motion } from 'motion/react';
 import { useGlobalContext } from '../GlobalProvider';
+import { asset } from '../utils/asset';
 import { formatDate, getDefaultEvent } from '../utils/date';
 import { lineReveal, staggerContainer, staggerItem } from '../utils/motion';
 
@@ -33,7 +34,7 @@ function Homepage() {
                     <Card background='bg-c-white'>
                         {homepagePhoto ? (
                             <img
-                                src={homepagePhoto}
+                                src={asset(homepagePhoto)}
                                 alt={homepage?.title || 'Foto pasangan'}
                                 className='aspect-[7/5] w-full rounded-md object-cover'
                             />

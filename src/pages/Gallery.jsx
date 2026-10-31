@@ -3,6 +3,7 @@ import { AnimatePresence, m as motion } from 'motion/react';
 import { FaCamera, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../GlobalProvider';
 import { easeOut } from '../utils/motion';
+import { asset } from '../utils/asset';
 
 import SectionTitle from "../components/SectionTitle";
 import { Reveal, RevealGroup, RevealItem } from "../components/motion/Reveal";
@@ -61,7 +62,7 @@ function Gallery() {
                                 >
                                     {item.url ? (
                                         <img
-                                            src={item.url}
+                                            src={asset(item.url)}
                                             alt={item.title}
                                             className='h-full w-full object-cover transition duration-300 group-hover:scale-105'
                                         />
@@ -148,7 +149,7 @@ function Gallery() {
                             transition={{ duration: 0.3, ease: easeOut }}
                         >
                             <img
-                                src={activeImage.url}
+                                src={asset(activeImage.url)}
                                 alt={activeImage.title}
                                 className='max-h-[80vh] max-w-full rounded-lg object-contain'
                             />

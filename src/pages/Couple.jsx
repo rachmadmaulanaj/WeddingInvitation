@@ -1,4 +1,5 @@
 import { useGlobalContext } from '../GlobalProvider';
+import { asset } from '../utils/asset';
 
 import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
@@ -26,7 +27,7 @@ function Couple() {
                                 <div className='text-center font-josefinsans text-c-navy'>
                                     {person.data.photo ? (
                                         <img
-                                            src={person.data.photo}
+                                            src={asset(person.data.photo)}
                                             alt={person.data.fullName}
                                             className='mx-auto h-24 w-24 rounded-full border-2 border-slate-200 object-cover md:h-28 md:w-28'
                                         />
