@@ -1,0 +1,179 @@
+{
+	"guestName": "Seseorang yang diundang",
+	"groomData": {
+		"name": "Rachmad",
+		"fullName": "Rachmad Maulana Julianto",
+		"fatherName": "Bapak Sampujo (Alm)",
+		"motherName": "Ibu Siti Nuryatun (Almh)",
+		"childNumber": 3,
+		"photo": "/photos/groom.png"
+	},
+	"brideData": {
+		"name": "Dhanes",
+		"fullName": "Dhaneswara Mursito Rukmi",
+		"fatherName": "Bapak Sigit",
+		"motherName": "Ibu Rini",
+		"childNumber": 2,
+		"photo": "/photos/bride.png"
+	},
+	"event": [
+		{
+			"name": "Akad Nikah",
+			"startDate": "2027-03-21 07:00:00",
+			"endDate": "2027-03-21 08:00:00",
+			"location": {
+				"name": "Ocean Garden Stasiun",
+				"address": "Jl. Trunojoyo No.3, Kiduldalem, Kec. Klojen, Kota Malang, Jawa Timur 65119",
+				"latitude": -7.9792761,
+				"longitude": 112.6365147
+			},
+			"isDefault": false
+		},
+		{
+			"name": "Resepsi",
+			"startDate": "2027-03-21 08:00:00",
+			"endDate": "2027-03-21 12:00:00",
+			"location": {
+				"name": "Ocean Garden Stasiun",
+				"address": "Jl. Trunojoyo No.3, Kiduldalem, Kec. Klojen, Kota Malang, Jawa Timur 65119",
+				"latitude": -7.9792761,
+				"longitude": 112.6365147
+			},
+			"isDefault": true
+		}
+	],
+	"homepage": {
+		"title": "Homepage Gallery",
+		"url": "/photos/homepage.png"
+	},
+	"gallery": [
+		{
+			"title": "Prewedding-1",
+			"url": "/photos/gallery-1.png"
+		},
+		{
+			"title": "Prewedding-2",
+			"url": "/photos/gallery-2.png"
+		},
+		{
+			"title": "Prewedding-3",
+			"url": "/photos/gallery-3.png"
+		}
+	],
+	"story": [
+		{
+			"urlPhoto": "",
+			"title": "Perkenalan",
+			"text": "Di tahun 2019, kami berkenalan melalui media sosial Instagram. Pada saat itu, saya di DM oleh dia untuk menanyakan seputar handphone yang bagus saat ini karna saat itu saya bekerja di bidang tersebut. Dari situlah hubungan kami ini dimulai."
+		},
+		{
+			"urlPhoto": "",
+			"title": "Awal Hubungan",
+			"text": "Setelah berbincang melalui DM Instagram, dia meminta nomor WhatsApp dan saya langsung memberikannya supaya saya lebih fast respond untuk membalas beberapa chatt darinya. Dari situ, kita mulai chattingan, ketemu dan juga pergi jalan ke beberapa tempat. Setelah sekian lama berkenalan pada tanggal 12 Mei 2020 dia mengungkapkan perasaannya secara lansung kepada saya dan saya lansung mengangguk dan bilang 'IYA' saya sangat bersyukur bahwa ternyata kita memiliki banyak kecocokan dan saya sangat mencintainya."
+		},
+		{
+			"urlPhoto": "",
+			"title": "Lamaran",
+			"text": "Setelah 2 tahun 3 bulan menjalani hubungan, akhirnya pada tanggal 28 Agustus 2022 kami memutuskan untuk Lamaran/Batimbang Tando (minang). Saya pun tidak menyangka bahwa cerita pertemuan saya dengan dia bakalan sampai ke tahap ini."
+		},
+		{
+			"urlPhoto": "",
+			"title": "Pernikahan",
+			"text": "Pada tanggal 21 Maret 2027 Insha Allah kami akan melangsungkan akad nikah dengan sederhana. Dengan semua doa restu dari keluarga dan teman-teman, saya dan pasangan telah siap untuk menempuh hidup bersama dan menjalankan ibadah panjang yang paling indah ini."
+		}
+	],
+	"liveStreaming": {
+		"title": "Live Streaming Pernikahan Rachmad & Dhanes",
+		"url": "https://www.youtube.com/watch?v=1suJ6amz7PM&list=PL-k5ifPc6CQjHTPeZhRG2oSwh7vltVLUp"
+	},
+	"wellWishes": [
+		{
+			"name": "Seseorang",
+			"text": "Selamat ma broo, akhirnya menikah juga. Semoga menjadi keluarga yang sakinah, mawadah, warahmah. Aamiin.",
+			"attendance": "Hadir",
+			"date": "2023-12-28 10:50:33"
+		},
+		{
+			"name": "Raisa",
+			"text": "Buah jambu Buah kedondong, uhuy akhirnya kawanku nikah dong. Semoga menjadi keluarga sakinah, mawadah, warahmah aamiin.",
+			"attendance": "Tidak Hadir",
+			"date": "2023-12-27 07:10:05"
+		},
+		{
+			"name": "Samsul",
+			"text": "Meskipun tak semudah itu aku melupakanmu, aku rela dan turut berbahagia atas pernikahanmu. Semoga Romeo bisa menjagamu dengan baik. Kalau tak bisa aku siap mengantri. Hihi",
+			"attendance": "Belum Pasti",
+			"date": "2023-12-25 15:03:40"
+		}
+	],
+	"gift": [
+		{
+			"type": "cashless",
+			"title": "BCA",
+			"number": 123456789,
+			"accountName": "Rachmad Maulana Julianto"
+		},
+		{
+			"type": "cashless",
+			"title": "DANA",
+			"number": 99999999,
+			"accountName": "Rachmad Maulana Julianto"
+		}
+	],
+	"menus": [
+		{
+			"title": "Beranda",
+			"url": "homepage",
+			"icon": "FaHome"
+		},
+		{
+			"title": "Pasangan",
+			"url": "couple",
+			"icon": "FaHeart"
+		},
+		{
+			"title": "Acara",
+			"url": "event",
+			"icon": "FaCalendarAlt"
+		},
+		{
+			"title": "Lokasi",
+			"url": "location",
+			"icon": "FaMapMarkerAlt"
+		},
+		{
+			"title": "Galeri",
+			"url": "gallery",
+			"icon": "FaCamera"
+		},
+		{
+			"title": "Cerita",
+			"url": "story",
+			"icon": "FaBookOpen"
+		},
+		{
+			"title": "Siaran Langsung",
+			"url": "live-streaming",
+			"icon": "FaVideo"
+		},
+		{
+			"title": "Kata Ucapan",
+			"url": "well-wishes",
+			"icon": "FaCommentAlt"
+		},
+		{
+			"title": "Hadiah",
+			"url": "gift",
+			"icon": "FaGift"
+		},
+		{
+			"title": "Penutup",
+			"url": "closing",
+			"icon": "FaDoorClosed"
+		}
+	],
+	"backsound": {
+		"title": "Akad - Payung Teduh",
+		"url": "/audio/backsound.mp3"
+	}
+}
